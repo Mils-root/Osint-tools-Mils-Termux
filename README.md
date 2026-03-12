@@ -1,17 +1,7 @@
-# Termux-Osint-Mils
 
-```
-  ███╗   ███╗██╗██╗     ███████╗
-  ████╗ ████║██║██║     ██╔════╝
-  ██╔████╔██║██║██║     ███████╗
-  ██║╚██╔╝██║██║██║     ╚════██║
-  ██║ ╚═╝ ██║██║███████╗███████║
-  ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝
-```
+Multi tools osint  entièrement en français penser pour **Termux** et Linux
 
-Multi-tools OSINT en ligne de commande, entièrement en français, pensé pour **Termux** et Linux.
-
-avec 9 outils mgl
+avec 9 outils bg
 
 ## Installation
 
@@ -23,21 +13,11 @@ cd Termux-Osint-Mils
 python osint_toolkit.py
 ```
 
-Aucune dépendance externe — Python standard uniquement.
+Aucune dépendance externe Python standard uniquement
 
----
+
 
 ## Utilisation
 
-Lance le script et navigue avec les numéros. Les résultats peuvent être exportés en `.txt` après chaque module.
-
----
-
-## Avertissement
-
-À utiliser uniquement sur des systèmes dont vous êtes propriétaire ou avec une autorisation explicite. Toute utilisation illégale est sous l'entière responsabilité de l'utilisateur.
-
----
-
-**Mils** — [github.com/Mils-root](https://github.com/Mils-root)
+Lance le script et navigue avec les numéros les résultat peuvent etre exportes en txt
 
