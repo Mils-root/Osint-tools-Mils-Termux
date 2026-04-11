@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os
 import sys
 import json
@@ -82,7 +79,7 @@ def ask_save(nom, lignes):
         export(nom, "\n".join(lignes))
 
 
-# ─── Géolocalisation IP ───────────────────────────────────────────────────────
+
 
 def geoip():
     sep()
@@ -123,7 +120,6 @@ def geoip():
         err("Impossible de lire la réponse.")
 
 
-# ─── DNS & WHOIS ──────────────────────────────────────────────────────────────
 
 def dns_whois():
     sep()
@@ -181,7 +177,6 @@ def dns_whois():
     ask_save("dns_whois", res)
 
 
-# ─── Scanner de ports ─────────────────────────────────────────────────────────
 
 def scan_ports():
     sep()
@@ -239,7 +234,6 @@ def scan_ports():
         ask_save("scan_ports", [f"Cible: {ip}"] + ouverts)
 
 
-# ─── Recherche de pseudo ──────────────────────────────────────────────────────
 
 def pseudo():
     sep()
@@ -291,7 +285,6 @@ def pseudo():
     ask_save("pseudo", trouves)
 
 
-# ─── OSINT Email ──────────────────────────────────────────────────────────────
 
 def email_osint():
     sep()
@@ -346,7 +339,6 @@ def email_osint():
     ask_save("email", res)
 
 
-# ─── Dorks Google ─────────────────────────────────────────────────────────────
 
 def dorks():
     sep()
@@ -386,7 +378,6 @@ def dorks():
     ask_save("dorks", lignes)
 
 
-# ─── Sous-domaines ────────────────────────────────────────────────────────────
 
 def subdomains():
     sep()
@@ -423,7 +414,6 @@ def subdomains():
     ask_save("subdomains", [f"Domaine: {dom}"] + trouves)
 
 
-# ─── Reverse IP ───────────────────────────────────────────────────────────────
 
 def reverse_ip():
     sep()
@@ -465,7 +455,6 @@ def reverse_ip():
     ask_save("reverse_ip", res)
 
 
-# ─── Réseau local ─────────────────────────────────────────────────────────────
 
 def reseau():
     sep()
@@ -518,7 +507,6 @@ def reseau():
     ask_save("reseau", res)
 
 
-# ─── Menu ─────────────────────────────────────────────────────────────────────
 
 MODULES = {
     "1": ("Géolocalisation IP",        geoip),
